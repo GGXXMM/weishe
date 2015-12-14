@@ -1,0 +1,90 @@
+/*内容区*/
+.mui-content
+{
+	position: relative;
+	width: 100%;
+}
+.mui-content .mui-content-tip
+{
+	margin-top: 6px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #fff;
+}
+.mui-content .mui-content-tip img
+{
+	margin-left: 20px;
+	vertical-align: middle;
+}
+.mui-content .mui-content-tip span
+{
+	font-size: 12px;
+	color: #909090;
+}
+/*底部*/
+footer {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	min-height: 50px;
+	border-top: solid 1px #bbb;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	padding: 0px 50px;
+	background-color: #fafafa;
+}
+.footer-left {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+	padding: 12px 4px;
+}
+.footer-right {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100%;
+	padding: 12px 5px;
+	display: inline-block;
+}
+.footer-center {
+	height: 100%;
+	padding: 5px 0px;
+}
+.footer-center [class*=input] {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.footer-center .input-text {
+	background: #fff;
+	border: solid 1px #ddd;
+	padding: 10px !important;
+	font-size: 16px !important;
+	line-height: 18px !important;
+	font-family: verdana !important;
+	overflow: hidden;
+}
+.footer-center .input-sound {
+	background-color: #eee;
+}
+/*底部*/
+.footer-right .mui-btn-primary
+{
+	width: 42px;
+	height: 30px;
+	text-align: center;
+	font-size: 10px;
+	background: #c0aa8e3;
+}

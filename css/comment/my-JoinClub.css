@@ -1,0 +1,32 @@
+/*内容*/
+.mui-content-list
+{
+	margin-top: 8px;
+	
+}
+.mui-media-body
+{
+	font-size: 15px;
+}
+.mui-middle
+{
+	line-height: 40px;
+}
+.mui-media-body-left
+{
+	width: 90%;
+	float: left;
+}
+.mui-media-body-right span
+{
+	color: #ccc;
+}
+.mui-media-body .active
+{
+	margin: 18px 8px 0 0;
+	width: 8px;
+	height: 8px;
+	background: red;
+	border-radius: 50%;
+	float: right;
+}

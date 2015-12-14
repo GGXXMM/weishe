@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../../js/mui.min.js"></script>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="../../css/comment/regist.css" />
+	<script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">注册</h1>
+	</header>	
+	<div class="mui-content">
+		<form class="mui-content-input">			
+			<div class="mui-input-row">
+				<label><img src="../../img/login/1.png"/></label>
+				<input type="text" class="mui-input mui-input-clear" placeholder="请输入邮箱 / 手机号码 " value="" id="userId"/>
+			</div>
+			<div class="mui-input-row">
+				<label><img src="../../img/login/2.png"/></label>
+				<input type="password" class="mui-input mui-input-clear" placeholder="密码" value="" id="pwd"/>
+			</div>			
+			<div class="mui-content-check">
+				<input type="text" class="mui-input mui-input-check" placeholder="输入验证码" value="" id="cCode" maxlength="6"/>
+				<button type="button" class="mui-btn mui-btn-primary" id="getCode">获取验证码</button>
+			</div>			
+			<div class="mui-content-padded" align="center">
+				<button type="button" class="mui-btn mui-btn-success" id="registNext">下一步</button>			
+			</div>
+		</form>
+		
+		<div class="mui-content-protocol" align="center" id="protocol">
+			注册即同意《微社用户协议》
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../../js/jquery.min.js" ></script>	
+	<script type="text/javascript" src="../../js/comment/regist.js"></script>
+</body>
+</html>

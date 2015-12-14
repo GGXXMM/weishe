@@ -1,0 +1,53 @@
+.mui-content
+{
+	margin-top: 10px;
+}
+.mui-content-message
+{
+	width: 100%;
+}
+.mui-table-view
+{
+	margin-bottom: 10px;
+}
+.mui-content-message .mui-media-body
+{
+	font-size: 15px;
+	color: #4d4d4d;
+}
+.mui-media-body .mui-media-body-left
+{
+	width: 65%;
+	float: left;
+}
+.mui-media-body .mui-media-body-right
+{
+	float: right;
+}
+
+.mui-content-message .mui-media-body .mui-ellipsis
+{
+	font-size: 10px;
+}
+
+.mui-table-view-cell:after
+{
+	left: 0;
+}
+.mui-content-message .mui-media-message
+{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	margin-top: 11px;
+	background:#f4f7f8;
+}
+.mui-content-message .mui-media-message p
+{
+	line-height: 16px;
+	padding: 2px;
+	font-size:11px;
+	color:#939393;
+	word-break:break-all;
+	word-wrap:break-word;
+}

@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+}
+html,body
+{	
+	font-family: "微软雅黑";
+	background: #f4f7f8;
+}
+
+/*头部*/
+.mui-bar
+{
+	color: #424242;
+	background: #fff;
+}
+.mui-bar .mui-icon
+{
+	color: #525252;
+}
+.mui-bar .mui-title
+{
+	font-size: 18px;
+	color: #424242;
+}
+/*内容区*/
+.mui-content
+{
+	background: none;
+}

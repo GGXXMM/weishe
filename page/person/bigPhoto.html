@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../../js/mui.min.js"></script>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/public/header.css" />
+    <link rel="stylesheet" href="../../css/comment/bigPhoto.css" />    
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">个人中心</h1>
+	</header>
+	<div class="mui-content" align="center">
+	    <img src="../../img/bigPhoto/1.png">
+	</div>
+	
+	<div class="mui-bar-footer" align="center">
+		<button type="button" class="mui-btn mui-btn-success" id="changPhoto">更换头像</button>
+		<button type="button" class="mui-btn mui-btn-warning">保存</button>
+	</div>
+	
+	<!--弹出层-->
+	<div id="getpic" class="mui-popover mui-popover-action mui-popover-bottom">
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell " id="bycamera">
+				拍照
+			</li>
+			<li class="mui-table-view-cell" id="bygallery">
+				相册
+			</li>
+		</ul>
+		<ul class="mui-table-view">
+			<a href="#gitpic" id="trigger">
+				<li class="mui-table-view-cell">
+					<b>取消</b>
+				</li>
+			</a>
+		</ul>
+	</div> 
+	<script type="text/javascript" src="../../js/comment/bigPhoto.js" ></script>
+</body>
+</html>

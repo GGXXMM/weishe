@@ -1,0 +1,205 @@
+/*头部*/
+.mui-bar-nav .mui-icon-compose
+{
+	float: right;
+}
+ul
+{
+	list-style: none;
+}
+.mui-content
+{
+	width: 100%;
+	height: 100%;
+}
+/*列表选项*/
+.mui-list-btnItem
+{
+	/*position: relative;*/
+	margin-top: 7px;
+	width: 100%;
+	height: 30px;
+	background: #fff;
+}
+.mui-list-btnItem .btn
+{
+	/*position:absolute;*/
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #8c8c8c;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.mui-list-btnItem .active
+{
+	border-bottom: 2px solid #bcbcbc;
+}
+.mui-list-btnItem .btn-see
+{
+	left: 0;
+	right: 50%;
+}
+.mui-list-btnItem .btn-dynamic
+{
+	right: 0;
+	left: 50%;
+}
+/*list消息显示*/
+.mui-describ
+{
+	margin-bottom: 8px;
+}
+.mui-describ .mui-media-body
+{
+	font-size: 15px;
+	color: #4d4d4d;
+}
+.mui-describ .mui-media-body .mui-ellipsis
+{
+	font-size: 10px;
+}
+
+.mui-table-view-cell:after
+{
+	left: 0;
+}
+.mui-describ .mui-media-message
+{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	margin-top: 11px;
+	background:#f4f7f8;
+}
+.mui-describ .mui-media-message p
+{
+	line-height: 16px;
+	padding: 2px;
+	font-size:11px;
+	color:#939393;
+	word-break:break-all;
+	word-wrap:break-word;
+}
+.mui-describ .mui-table-view-discuss
+{	
+	padding: 6px 10% 6px 5%;
+	width: 100%;
+	height: 30px;
+	background: #fff;
+}
+.mui-describ .mui-table-view-discuss .view-discuss-btn
+{	
+	width: 30%;
+	float: left;
+	cursor: pointer;
+}
+.mui-describ .mui-table-view-discuss .view-discuss-btn span
+{
+	font-size: 12px;
+	color: #bcbcbc;
+}
+.mui-describ .mui-table-view-discuss .view-discuss-btn img
+{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.mui-detailDescrib
+{
+	margin-top:14px;
+}
+.mui-detailDescrib .mui-table-view .mui-media-object
+{
+	line-height: 38px;
+	max-width: 38px;
+	height: 38px;
+}
+.mui-detailDescrib .mui-table-view .mui-media-body
+{
+	height: 38px;	
+}
+.mui-detailDescrib .mui-media-body-left
+{
+	font-size: 12px;
+	color: #2f2f2f;
+	float: left;
+}
+.mui-detailDescrib .mui-media-body-left .mui-ellipsis 
+{
+	font-size: 9px;
+	color: #a6a6a6;
+}
+.mui-detailDescrib .mui-media-body-right
+{
+	float: right;
+	font-size: 9px;
+	color: #a6a6a6;
+}
+.mui-detailDescrib .mui-text
+{
+	margin-top: 10px;
+	font-size: 11px;
+	color: #6d6d6d;
+}
+/*发说说*/
+.mui-popover-write
+{
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	width:90%;
+	height: 160px;
+	background: #fff;
+	z-index: 1000;
+}
+.mui-popover-write .title
+{ 
+	padding-top:10px;
+	width: 100%;
+	height: 20px;
+}
+.mui-popover-write .content
+{
+	width: 100%;
+	height: 80px;
+}
+.mui-popover-write .content .content-text p
+{
+	margin-top: 20px;
+	text-align: left;
+	width: 85%;
+	line-height: 30px;
+	font-size: 12px;
+	color: #8C8C8C;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.footer-btn .mui-btn
+{
+	width: 50px;
+	height: 30px;
+	border-radius:5px;
+	border: none;
+}
+.footer-btn .mui-btn-red
+{	
+	margin-left: 30px;
+	background: #ef9378;	
+}
+
+.footer-btn .mui-btn-primary
+{
+	margin-right: 30px;
+	background: #78b3ef;
+}
+
+/*.mui-popover-write .title .title-left,.mui-popover-write .title .title-right
+{
+	font-size: 14px;
+	color: #656363;
+	width: 20%;
+	text-align: center;
+}*/

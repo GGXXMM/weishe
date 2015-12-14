@@ -1,0 +1,61 @@
+/*头部*/
+.mui-bar-nav .mui-icon-help
+{
+	float: right;
+}
+
+/*内容区*/
+.mui-content
+{
+	width: 100%;
+	margin-top: 10%;
+}
+.mui-content-input
+{
+	width: 80%;
+	margin: 0 10%;
+}
+.mui-input-row
+{
+	height: 40px;
+	margin-top: 20px;
+	border: 1px solid #C0C0C0;
+	border-radius: 8px;	
+}
+.mui-input-row:last-child,
+.mui-input-row,.mui-input-row label + input
+{
+    background:#fff;
+}
+.mui-input-row label
+{
+	width: 10%;
+}
+.mui-input-row .mui-icon
+{
+	color:#C0C0C0;
+}
+.mui-input-row .mui-input
+{
+	width: 85%;
+	font-size: 12px;
+	background-color: #fff;
+}
+.mui-input-textarea
+{
+	margin-top: 20px;
+}
+.mui-input-textarea textarea
+{
+	height: 120px;
+}
+.mui-input-button
+{
+	margin-top:10%;
+}
+.mui-input-button .mui-btn-success
+{
+	width: 60%;
+	border: 1px solid #4cd964;
+	background-color: #4cd964;
+}

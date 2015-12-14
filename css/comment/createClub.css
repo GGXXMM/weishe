@@ -1,0 +1,73 @@
+html,body,.mui-content
+{
+	position: relative;
+	width: 100%;
+	height: 100%;	
+	font-family: "微软雅黑";
+	background:url(../../img/createClub/bg.png);
+	background-size:cover;
+}
+/*头部*/
+.mui-bar-nav 
+{	
+	background: url(../../img/createClub/header-bg.png) repeat-x;
+	webkit-box-shadow:none; 
+	box-shadow:none;
+}
+.mui-bar-nav .mui-icon
+{
+	color:#fff;
+}
+.mui-bar-nav .mui-title
+{
+	font-size: 18px;
+	color: #fff;
+}
+/*内容*/
+.mui-content-functions
+{
+	margin-top: 20%;
+	width: 100%;
+	
+}
+.mui-content-up
+{
+	margin: 0 auto;
+	width: 103px;
+	height: 130px;
+	line-height: 130px;
+	background: url(../../img/createClub/1.png) no-repeat;
+}
+.mui-content-putong
+{
+	margin-left: 4%;
+	width: 134px;
+	height: 104px;
+	line-height: 104px;
+	background: url(../../img/createClub/2.png);
+	float: left;
+}
+.mui-content-weishe
+{
+	margin-right: 4%;
+	width: 130px;
+	height: 104px;
+	line-height: 104px;
+	background: url(../../img/createClub/3.png);
+	float: right;
+}
+.content-function p
+{
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+}
+.mui-content-down
+{
+	margin: 50px auto;	
+	width: 103px;
+	height: 130px;
+	line-height: 130px;
+	background: url(../../img/createClub/4.png) no-repeat;
+}

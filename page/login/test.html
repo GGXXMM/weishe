@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <script src="../../js/mui.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.min.js" ></script>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/public/header.css" />
+    <link rel="stylesheet" href="../../css/comment/findpassword.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+	</head>
+	<body>
+		
+	</body>
+	<script type="text/javascript">
+		var userId=1;
+		var pwd =1;
+		var cCode =2;
+		var realName=111;
+		var name=222;
+		var sex="女";
+		var birthday=444;
+		var school=555;
+		//验证
+		$.ajax({
+			type:"post",
+			url:"http://121.42.164.137:8080/weishe/user/UserLoginServlet?method=regist",
+			data:{
+				userId:userId,
+				pwd:pwd,
+				cCode:cCode,
+				realName:realName,
+				name:name,
+				sex:sex,
+				birthday:birthday,
+				school:school	
+			}
+			
+		},function(data){
+			mui.toast("注册成功！")
+			plus.webview.open('../login/login.html')
+		},function(err){
+			mui.toast("注册失败，请重新输入！")
+		});
+	</script>
+</html>

@@ -1,0 +1,99 @@
+html,body
+{
+	background: #ebeded;
+}
+/*内容区*/
+.mui-content
+{
+	margin-top: 8px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+/*搜索框*/
+.mui-content-search
+{
+	height: 44px;
+}
+.mui-content-search .mui-input-row
+{
+	margin: 0 auto;
+	width: 95%;
+	height: 44px;
+	background: #fff;
+	border: 1px solid #ececeb;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.mui-input-row label
+{
+	width: 5%;
+}
+.mui-input-row .mui-input-clear
+{	
+	width: 55%;
+}
+/*list*/
+.mui-content-list
+{
+	margin-top: 8px;
+	
+}
+.mui-media-object
+{
+	margin-top: 10px;
+}
+.mui-media-body
+{
+	font-size: 15px;
+
+}
+.mui-media-body .mui-media-body-left
+{
+	width: 65%;
+	float: left;
+}
+.mui-media-body-left .body-left-distance p 
+{
+	font-size: 12px;
+}
+.mui-media-body-left .body-left-distance p span
+{
+	margin-right: 8px;
+	font-size: 14px;
+	color: #fd8484;
+}
+.mui-media-body-right
+{
+	margin-top:20px;
+}
+.mui-middle
+{
+	line-height: 40px;
+}
+.mui-media-body-left
+{
+	width: 85%;
+	float: left;
+}
+.mui-media-body-right
+{
+	
+	color: #ccc;
+	float: right;
+}
+.mui-media-body-right span
+{
+	font-size: 16px;
+}
+.mui-media-body-date
+{
+	font-size: 12px;
+	color: #ccc;
+	float: right;
+}
+.mui-media-body .mui-ellipsis
+{
+	font-size: 12px;
+	float: left;
+}

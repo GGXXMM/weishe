@@ -1,0 +1,80 @@
+ul
+{
+	list-style: none;
+}
+/*内容区*/
+.mui-content
+{
+	width: 100%;
+	height: 100%;
+}
+.mui-content-photo
+{
+	width: 100%;
+	height: 170px;
+	background: url(../../img/personal/personal-bg.png);
+	background-size: cover;
+}
+.mui-content-photo .content-photo-info
+{
+	margin:0 auto;
+	padding-top:25px;
+	width: 30%;
+	text-align: center;
+}
+.mui-content-photo .content-photo-info p
+{
+	margin-top: 11px;
+	font-size: 24px;
+	color: #fff;
+}
+.mui-content-blank
+{
+	width: 100%;
+	height: 10px;
+	background: #fff;
+}
+/*功能列表*/
+.mui-content-functions
+{
+	padding-top: 20px;
+	width: 100%;
+	height:325px;	
+}
+.mui-content-functions ul
+{
+	text-align: center;
+}
+.mui-content-functions ul li
+{
+	width: 32%;
+	height: 95px;
+	line-height: 85px;
+	float: left;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+.mui-content-functions ul li:last-child
+{
+	border-right:none;
+}
+.mui-content-functions ul li.checkout
+{
+	border-right: 1px solid #e3e3e3;
+	border-bottom:none;
+}
+.mui-content-functions ul li .content-functions-img
+{
+	height: 39px;
+}
+.mui-content-functions ul li img
+{
+	margin: 10px auto 0 auto;
+	display: block;
+}
+.mui-content-functions ul li .content-functions-text
+{
+	margin-top: -18px;
+	font-size: 12px;
+	color: #636060;
+}

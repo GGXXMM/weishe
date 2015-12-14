@@ -1,0 +1,80 @@
+html,body,.mui-content
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	background:url(../../img/regist/bg1.jpg);
+	background-size: cover;
+}
+/*头部*/
+.mui-bar-nav 
+{	
+	background: url(../../img/createClub/header-bg.png) repeat-x;
+	webkit-box-shadow:none; 
+	box-shadow:none;
+}
+.mui-bar-nav .mui-icon
+{
+	color:#fff;
+}
+.mui-bar-nav .mui-title
+{
+	font-size: 18px;
+	color: #fff;
+}
+/*内容区*/
+.mui-content
+{
+	position: absolute;
+}
+.mui-content-input
+{
+	margin: 20% 10%;
+}
+.mui-input-row
+{
+	height: 40px;
+	margin-top: 15px;
+	border: 1px solid #C0C0C0;
+}
+.mui-input-row:last-child,
+.mui-input-row,.mui-input-row label + input
+{
+    background:#fff;
+}
+.mui-input-row .mui-input
+{
+	font-size: 12px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+.mui-input-sex
+{
+	margin-top: 15px;
+}
+.mui-input-sex p
+{
+	font-size: 14px;
+	color: #fff;
+}
+.mui-input-sex p input
+{
+	outline: none;
+	margin: 0 15px;
+}
+.mui-input-sex p img
+{
+	vertical-align: middle;
+}
+.mui-input-button
+{
+	margin-top:10%;
+}
+.mui-input-button .mui-btn-success
+{
+	width: 100%;
+	border: 1px solid #4cd964;
+	background-color: #4cd964;
+}

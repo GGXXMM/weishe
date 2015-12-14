@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="../../js/mui.min.js"></script>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/public/header.css" />
+    <link rel="stylesheet" href="../../css/comment/modifyPwd.css" />
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		<h1 class="mui-title">修改密码</h1>
+	</header>
+	
+	<div class="mui-content">
+		<form class="mui-content-input" method="get" align="center">			
+			<div class="mui-input-row">						
+				<input type="password" class="mui-input mui-input-clear" placeholder="旧密码" value="" id="oldPwd"/>
+			</div>
+			<div class="mui-input-row">						
+				<input type="password" class="mui-input mui-input-clear" placeholder="设置新密码" value="" id="newPwd"/>
+			</div>
+			<div class="mui-input-row">						
+				<input type="password" class="mui-input mui-input-clear" placeholder="再次确认" value="" id="rePwd"/>
+			</div>
+			
+			<div class="mui-content-button">
+				<button type="button" class="mui-btn mui-btn-royal" id="modifyPwd">确定</button>
+			</div>	
+		</form>
+	</div>
+	<script type="text/javascript" src="../../js/jquery.min.js" ></script>
+	<script type="text/javascript" src="../../js/comment/modifyPwd.js" ></script>
+</body>
+</html>

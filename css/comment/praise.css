@@ -1,0 +1,91 @@
+body,html,.mui-content
+{
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	background: url(../../img/praise/bg5.png) no-repeat;
+	background-size: cover;
+}
+
+/*头部*/
+.mui-bar-nav 
+{	
+	background: url(../../img/login/header-bg.png) repeat-x;
+	webkit-box-shadow:none; 
+	box-shadow:none;
+}
+.mui-bar-nav .mui-icon
+{
+	/*color: #BCBCBC;*/
+	color: #fff;
+}
+.mui-bar-nav .mui-title
+{
+	font-size: 18px;
+	color: #fff;
+}
+/**/
+@-webkit-keyframes loading {
+        0% {
+            -webkit-transform: scale(1)
+        }
+        50% {
+            -webkit-transform: scale(.5)
+        }
+        100% {
+            -webkit-transform: scale(1)
+        }
+    }
+.mui-content .mui-content-bigRound
+{
+	position: absolute;
+	margin: 0 auto;
+	top: 35%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: rgba(255,255,255,0.2);
+	-webkit-animation-name: 'loading';
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite
+}
+.mui-content-bigRound .smallRound
+{
+	margin: 10px auto;	
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: rgba(255,255,255,0.5);
+}
+.smallRound .praise-title
+{
+	padding-top:25px;	
+}
+.smallRound .praise-title p
+{	
+	font-size: 28px;
+}
+.praise-title .praise-title-hr
+{
+	position: absolute;
+	margin-left: 35%;
+	width: 40px;
+	height: 2px;
+	background-color: #424242;
+}
+.smallRound .praise-content
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+.smallRound .praise-content p
+{
+	font-size: 12px;
+}

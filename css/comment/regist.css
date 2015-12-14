@@ -1,0 +1,118 @@
+html,body
+{
+	font-family: "微软雅黑";
+}
+::-webkit-input-placeholder{ 
+	color: #fff;
+	font-size: 12px;		
+}
+:-moz-placeholder { 	
+	color: #fff;
+		font-size: 12px;
+}
+::-moz-placeholder { 
+	color: #fff;
+		font-size: 12px;
+}
+:-ms-input-placeholder { 
+	color: #fff;
+		font-size: 12px;
+}
+.mui-input-check::-webkit-input-placeholder { 
+	color: #BCBCBC;
+	font-size: 12px;		
+}
+.mui-input-check:-moz-placeholder { 	
+	color: #BCBCBC;
+	font-size: 12px;
+}
+.mui-input-check::-moz-placeholder { 
+	color: #BCBCBC;
+		font-size: 12px;
+}
+.mui-input-check:-ms-input-placeholder { 
+	color: #BCBCBC;
+		font-size: 12px;
+}
+html,body,.mui-content
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	background:url(../../img/regist/bg1.jpg);
+	background-size: cover;
+}
+/*头部*/
+.mui-bar-nav 
+{	
+	background: url(../../img/regist/header-bg.png);
+	webkit-box-shadow:none; 
+	box-shadow:none;
+}
+.mui-bar-nav .mui-icon
+{
+	color: #fff;
+}
+.mui-bar-nav .mui-title
+{
+	font-size: 18px;
+	color: #fff;
+}
+/*内容区*/
+.mui-content
+{
+	position: absolute;
+	top: 12%;
+	margin:0 10% 0 10%;
+	width: 80%;
+	height: 80%;
+	background: none;	
+}
+.mui-content-input .mui-input-row
+{
+	border: 1px solid #ececeb;
+	margin-bottom: 20px;
+}
+.mui-input-row .mui-input-clear
+{
+	font-size: 12px;
+	color: #fff;
+}
+.mui-input-row label
+{	
+	width: 5%;
+}
+.mui-input-row .mui-input
+{	
+	width: 85%;
+}
+.mui-content-check .mui-input-check
+{
+	width: 50%;
+	
+	float: left;
+	outline: none;
+}
+.mui-content-check .mui-btn-primary
+{
+	width: 40%;
+	height: 38px;
+	background: #44ace8;
+	border: none;
+	float: right;
+	
+}
+.mui-content-padded .mui-btn
+{
+	margin-top: 20px;
+	width: 70%;
+	height: 40px;
+}
+.mui-content-protocol
+{
+	margin-top:50%;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: underline;
+}
